@@ -1,0 +1,49 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url('https://images.unsplash.com/photo-1512820790803-83ca734da794') no-repeat center center/cover;
+  color: white;
+}
+
+.navbar {
+  background-color: #ff9900;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar button {
+  background-color: #fff;
+  border: none;
+  padding: 10px 15px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.logout {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+.form-container {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  max-width: 400px;
+  margin: 50px auto;
+  border-radius: 10px;
+}
+
+form input, form select {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
